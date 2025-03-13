@@ -3,65 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actividad 2</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Menú</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Menu</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item dropdown">
-            
-                      <li><a class="dropdown-item" href="p1.html">Ejercicio 1</a></li>
-                      <li><a class="dropdown-item" href="p2.html">Ejercicio 2</a></li>
-                      <li><a class="dropdown-item" href="p3.html">Ejercicio 3</a></li>
-                      <li><a class="dropdown-item" href="p4.html">Ejercicio 4</a></li>
-                      <li><a class="dropdown-item" href="index.html">Volver al Menú</a></li>
-                  </ul>
-                </li>
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Actividades
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="p1.html">Actividad 1</a></li>
+                  <li><a class="dropdown-item" href="p2.html">Actividad 2</a></li>
+                  <li><a class="dropdown-item" href="p3.html">Actividad 3</a></li>
+                  <li><a class="dropdown-item" href="p4.html">Actividad 4</a></li>
+                </ul>
+              </li>
             </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-    </div>
-</nav>
-        <br>
-    <div class="container-fluid bg-dark">
-        <h1 class="p-2 text-success bg-danger">CONTENEDORES</h1>
-        <br>
-    <header class="p-3 text-center bg-success">
-        <h1>Contenedor</h1>
-    </header>
-
-    <nav class="p-5 text-center bg-primary">
-        <h1>Nav</h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, ut provident? Veritatis doloribus, aliquam animi quas quibusdam deleniti? Placeat natus eaque repellat odit explicabo vitae quia quo facere ipsum eius.
-    </nav>
-
-    <main class="p-5 text-center bg-danger">
-        <h1>Main</h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum expedita molestias ratione recusandae sit? Unde voluptate repellat fugiat dolores rerum aliquam, dignissimos tempora laborum ducimus officiis harum aliquid ab similique.
-    </main>
-    <section class="m-1 bg-dark">
-        <article class="p-3 text-center bg-secondary">
-            <h1>Article</h1>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero nobis deleniti reprehenderit quos perspiciatis commodi, hic quam totam ad nulla, facere natus ducimus voluptatibus iure aliquam sit voluptatem officia veniam.
-        </article>    
-    </section>
-    <footer class="p-2 fs-5 bg-info text-center">Footer</footer>
-</div>
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <!-- <script src="js/bootstrap.min.js"></script> -->
-
-
-    
+      </nav>
+      <div class="container-fluid bg-danger">
+        <header class="bg-primary p-5 text-center text-uppercase">header
+            <img src="imagenes/angularimage.jpg" alt="" width="50" height="50">
+        </header>
+        <nav class="bg-secondary p-5">
+          <p>nav</p>
+        </nav>
+        <section class="bg-secondary">
+          <article class="bg-primary p-3 m-1">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+              autem aliquam non eius impedit rerum. Ex, voluptatibus, dolore
+              expedita quod fugit dolorem corporis similique debitis vitae tempore
+              molestiae. Reiciendis, vero.
+            </p>
+          </article>
+          <article class="bg-primary p-3 m-1">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                autem aliquam non eius impedit rerum. Ex, voluptatibus, dolore
+                expedita quod fugit dolorem corporis similique debitis vitae tempore
+                molestiae. Reiciendis, vero.
+                <img src="imagenes/angularimage.jpg" alt="" width="70" height="70">
+              </p>
+            </article>
+            <article class="bg-primary p-3 m-1">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                autem aliquam non eius impedit rerum. Ex, voluptatibus, dolore
+                expedita quod fugit dolorem corporis similique debitis vitae tempore
+                molestiae. Reiciendis, vero.
+              </p>
+            </article>
+        </section>
+        <footer class="bg-info p-5">footer</footer>
+      </div>
+      <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
